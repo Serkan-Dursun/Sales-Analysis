@@ -1,4 +1,4 @@
-I built a Python script that generates realistic, interconnected business datasets for analytics, dashboarding, and data science practice. It creates CSVs for customers, products, sales reps, marketing campaigns, sales transactions, web analytics, and A/B test results—all with reproducible fake data.
+I built a Python script that generates realistic, interconnected business datasets for analytics, dashboarding, and data science practice. It creates CSVs for customers, products, sales reps, marketing campaigns, sales transactions, web analytics, and A/B test results—all with reproducible mock data.
 
 **Features:**
 - 7 business-relevant tables (customers, products, sales, etc.)
@@ -12,6 +12,10 @@ I built a Python script that generates realistic, interconnected business datase
 ![Excel Sales Analysis Data Tables](../images/EXCEL_Sales_Analysis_Data_Tables.jpg)
 
 </details>
+
+
+
+
 
 
 ```Python Scripts
