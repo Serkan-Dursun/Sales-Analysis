@@ -10,6 +10,7 @@ and enforce data integrity for my Sales Performance Analysis project.
 - I generated realistic mock data with Python and loaded into Excel, with each sheet representing a table (e.g., customers, products, sales, etc.).
 - The data generation process is fully documented in [`notebooks/Python_Code_to_create_Excel_Dummy_Data.md`](Python_Code_to_create_Excel_Dummy_Data.md).
 - Each sheet had clear column headers and no empty rows or columns.
+- click here to see the excel file data/sales_performance_data.xlsx, or click here to see the image of the Excel tables.
 
 ---
 
