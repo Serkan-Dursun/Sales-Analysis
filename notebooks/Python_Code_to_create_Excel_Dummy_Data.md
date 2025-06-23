@@ -6,15 +6,17 @@ I built a Python script that generates realistic, interconnected business datase
 - Reproducible results (seeded randomness)
 - Great for SQL, BI, and data science demos
 
-<details>
-<summary>Click to see the Excel tables</summary>
+**👉 Don’t miss the Excel tables image below! Expand the section to view.**
 
-![Excel Sales Analysis Data Tables](../images/EXCEL_Sales_Analysis_Data_Tables.jpg)
+**Preview:**  
+<img src="../images/EXCEL_Sales_Analysis_Data_Tables.jpg" width="300"/>
+
+<details>
+<summary>📊 Click to enlarge the Excel tables</summary>
+
+<img src="../images/EXCEL_Sales_Analysis_Data_Tables.jpg" width="800"/>
 
 </details>
-
-
-
 
 
 
