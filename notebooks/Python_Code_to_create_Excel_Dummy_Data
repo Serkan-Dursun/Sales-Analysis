@@ -9,7 +9,11 @@ I built a Python script that generates realistic, interconnected business datase
 - Great for SQL, BI, and data science demos
 
 <details>
-<summary>Click to see the Excel tables</summary> images/EXCEL_Sales_Analysis_Data_Tables.jpg
+<summary>Click to see the Excel tables</summary>
+
+![Excel Sales Analysis Data Tables](images/EXCEL_Sales_Analysis_Data_Tables.jpg)
+
+</details>
 
 
 ```Python Scripts
