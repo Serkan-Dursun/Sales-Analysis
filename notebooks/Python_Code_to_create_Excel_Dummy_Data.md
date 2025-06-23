@@ -1,5 +1,3 @@
-## 🛠️ Synthetic Business Data Generator
-
 I built a Python script that generates realistic, interconnected business datasets for analytics, dashboarding, and data science practice. It creates CSVs for customers, products, sales reps, marketing campaigns, sales transactions, web analytics, and A/B test results—all with reproducible fake data.
 
 **Features:**
@@ -11,7 +9,7 @@ I built a Python script that generates realistic, interconnected business datase
 <details>
 <summary>Click to see the Excel tables</summary>
 
-![Excel Sales Analysis Data Tables](images/EXCEL_Sales_Analysis_Data_Tables.jpg)
+![Excel Sales Analysis Data Tables](../images/EXCEL_Sales_Analysis_Data_Tables.jpg)
 
 </details>
 
