@@ -14,7 +14,7 @@ I built a Python script that generates realistic, interconnected business datase
 <details>
 <summary>📊 Click to enlarge the Excel tables</summary>
 
-<img src="../images/EXCEL_Sales_Analysis_Data_Tables.jpg" width="800"/>
+<img src="../images/EXCEL_Sales_Analysis_Data_Tables.jpg" width="1200"/>
 
 </details>
 
