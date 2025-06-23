@@ -28,7 +28,7 @@ The database is designed as a star schema, with a central fact table (`sales`) a
 
 **Entity-Relationship Diagram (ERD):**
 
-![ERD Screenshot](relative/path/to/your/ERD-image.png)
+![SQL Entity Relational Database Diagram](images/SQL_Sales_Analysis_db_Diagram.jpg)
 
 **Main Tables:**
 - `customers`: Customer information, including business and individual segments.
