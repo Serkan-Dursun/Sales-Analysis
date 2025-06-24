@@ -96,10 +96,11 @@ CREATE TABLE ab_test_results (
 ```
 
 ## 2. Data Extraction and Import
-- Data was generated in Excel using Python (see notebooks/Python_Code_to_create_Excel_Dummy_Data.md).
-The SQL Server Import Wizard was used to import data from Excel sheets.
-During the first import, tables were created without the $ suffix, but the data was incomplete (many NULL values).
-A second import created new tables with the $ suffix (e.g., customers$, sales$), which contained the correct data.
+
+- Data was generated in Excel using Python (see [notebooks/Python_Code_to_create_Excel_Dummy_Data.md](../notebooks/Python_Code_to_create_Excel_Dummy_Data.md)).
+- The SQL Server Import Wizard was used to import data from the Excel sheets.
+- During the first import, tables were created without the `$` suffix, but the data was incomplete (many `NULL` values).
+- A second import created new tables with the `$` suffix (e.g., `customers$`, `sales$`), which contained the correct data.
 ---
  ## 3. Data Cleaning and Migration
 Data was migrated from the $ staging tables to the final tables (without $), ensuring correct data types and relationships.
@@ -141,7 +142,10 @@ DROP TABLE ab_test_results$;
 ---
 
 ## 7. Notes on the ETL Process
-- During the initial import from Excel, the SQL Server Import Wizard created tables without the $ suffix, but the data was incomplete (many NULL values). On a second import, the wizard created new tables with the $ suffix (e.g., customers$), which contained the correct data. Data was then migrated and cleaned from these $ tables into the final tables (without $), which were created with the correct schema, primary keys, and foreign keys. After validation, the $ tables were dropped.
+
+- During the initial import from Excel, the SQL Server Import Wizard created tables without the `$` suffix, but the data was incomplete (many `NULL` values). On a second import, the wizard created new tables with the `$` suffix (e.g., `customers$`), which contained the correct data. Data was then migrated and cleaned from these `$` tables into the final tables (without `$`), which were created with the correct schema, primary keys, and foreign keys. After validation, the `$` tables were dropped.
+
+For a detailed, step-by-step ETL workflow, see [notebooks/ETL_Processes.md](notebooks/ETL_Processes.md).
 
 ---
 
