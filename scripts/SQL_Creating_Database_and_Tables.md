@@ -8,7 +8,7 @@ This document details the end-to-end process for building the Sales Performance 
 
 The final database schema was designed based on a star schema, with a central fact table (`sales`) and several dimension and analytics tables. All relationships are enforced with primary and foreign keys.
 
-Click [here](../images/SQL_Sales_Analysis_db_Diagram.jpg) to see the schema diagram.
+
 
 **SQL code to create all tables:**
 
@@ -99,7 +99,7 @@ CREATE TABLE ab_test_results (
 
 ## 2. Data Extraction and Import
 
-- Data was generated in Excel using Python (see the code [here](../notebooks/Python_Code_to_create_Excel_Dummy_Data.md)).
+- Data was generated in Excel using Python.
 - The SQL Server Import Wizard was used to import data from the Excel sheets.
 - During the first import, tables were created without the `$` suffix, but the data was incomplete (many `NULL` values).
 - A second import created new tables with the `$` suffix (e.g., `customers$`, `sales$`), which contained the correct data.
@@ -147,9 +147,9 @@ DROP TABLE ab_test_results$;
 
 - During the initial import from Excel, the SQL Server Import Wizard created tables without the `$` suffix, but the data was incomplete (many `NULL` values). On a second import, the wizard created new tables with the `$` suffix (e.g., `customers$`), which contained the correct data. Data was then migrated and cleaned from these `$` tables into the final tables (without `$`), which were created with the correct schema, primary keys, and foreign keys. After validation, the `$` tables were dropped.
 
-For a detailed, step-by-step ETL workflow, see [here](https://github.com/Serkan-Dursun/SerkanDursun-Portfolio/blob/76f409f865216cc7e12a0de1246648a2cd38ba71/notebooks/ETL_Processes.md).
-_Tip: Right-click and choose “Open link in new tab” to keep your place in this document._
-
-
 ---
-
+## 8. Useful Links
+- For a detailed, step-by-step ETL workflow, see [here](https://github.com/Serkan-Dursun/SerkanDursun-Portfolio/blob/76f409f865216cc7e12a0de1246648a2cd38ba71/notebooks/ETL_Processes.md).
+- For the Python code used to generate the Excel dummy data, see [here](https://github.com/Serkan-Dursun/SerkanDursun-Portfolio/blob/main/notebooks/Python_Code_to_create_Excel_Dummy_Data.md).
+- To view the database schema diagram, click [here](https://github.com/Serkan-Dursun/SerkanDursun-Portfolio/blob/main/images/SQL_Sales_Analysis_db_Diagram.jpg).
+-  _Tip: Right-click and choose “Open link in new tab” to keep your place in this document._
