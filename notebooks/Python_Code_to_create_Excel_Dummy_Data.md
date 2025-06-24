@@ -12,7 +12,7 @@ I built a Python script that generates realistic, interconnected business datase
 <img src="../images/EXCEL_Sales_Analysis_Data_Tables.jpg" width="300"/>
 
 <details>
-<summary>📊 Click to enlarge the Excel tables</summary>
+<summary><strong>📊 Click to enlarge the Excel tables 📊 </strong></summary>
 
 <img src="../images/EXCEL_Sales_Analysis_Data_Tables.jpg" width="1200"/>
 
