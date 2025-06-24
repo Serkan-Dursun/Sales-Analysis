@@ -1,6 +1,7 @@
-# SQL Database Creation and ETL Process Documentation
+# SQL Database and Tables Creation and ETL Process Documentation
 
-This document details the end-to-end process for building the Sales Performance Analysis database, including schema creation, data import from Excel, data cleaning, and enforcing data integrity with primary and foreign keys.
+This document details the end-to-end process for building the Sales Performance Analysis database, including schema creation, data import from Excel, data cleaning, and enforcing data integrity with primary and foreign keys.  
+For additional resources—such as the full ETL workflow, Python data generation code, and the database schema diagram—see the useful links provided in step 8 at the end of this document.
 
 ---
 
