@@ -1,6 +1,7 @@
 # 📈 A/B Test Segment Analysis Report – Email Campaign
 
 This report provides a breakdown of customer segments based on A/B test results for Email Campaign ID 14.
+- To see the process, you can visit this link: scripts/SQL_and_RStudio_A-B_Testing_Email_Marketing_.md
 
 ## 🧪 Code to Generate Segment Summary
 
