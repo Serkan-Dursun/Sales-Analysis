@@ -12,6 +12,12 @@ The final database schema was designed based on a star schema, with a central fa
 **SQL code to create all tables:**
 
 ```sql
+
+CREATE DATABASE SalesPerformance;
+GO
+--
+USE SalesPerformance;
+GO
 -- Table: customers
 CREATE TABLE customers (
     customer_id INT PRIMARY KEY,
