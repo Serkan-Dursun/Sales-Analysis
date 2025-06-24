@@ -147,7 +147,7 @@ DROP TABLE ab_test_results$;
 
 - During the initial import from Excel, the SQL Server Import Wizard created tables without the `$` suffix, but the data was incomplete (many `NULL` values). On a second import, the wizard created new tables with the `$` suffix (e.g., `customers$`), which contained the correct data. Data was then migrated and cleaned from these `$` tables into the final tables (without `$`), which were created with the correct schema, primary keys, and foreign keys. After validation, the `$` tables were dropped.
 
-For a detailed, step-by-step ETL workflow, see the process [here](notebooks/ETL_Processes.md).
+For a detailed, step-by-step ETL workflow, see <a href="notebooks/ETL_Processes.md" target="_blank">here</a>.
 
 ---
 
