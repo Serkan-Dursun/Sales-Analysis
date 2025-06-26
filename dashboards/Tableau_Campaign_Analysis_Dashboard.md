@@ -22,9 +22,10 @@ This report presents a detailed analysis of campaign effectiveness based on tota
 ---
 
 ## Impact of Product and Service Filters on Campaign Effectiveness
+Product and service filters reveal how campaign success varies across segments. This highlights the need for targeted analysis to optimize marketing efforts, improve messaging, and allocate resources effectively for maximum impact.
 
 ---
-### 1. Emergency Support & Helpdesk Services Filters
+# 1. Emergency Support & Helpdesk Services Filters
 
 This analysis focuses on how our marketing campaigns are performing specifically within the **Emergency Support** and **Helpdesk** service segments. These services are critical for customers who require immediate IT assistance and ongoing technical support.
 
@@ -59,8 +60,7 @@ This analysis focuses on how our marketing campaigns are performing specifically
 - **Customer-Centric Approach:**  
   Understanding that customers in emergency and helpdesk segments respond best to specific, urgent messaging helps us tailor our communications and offer more effectively.
 ---
----
-### 2. Managed IT, IT Services, and IT Audit Filters
+# 2. Managed IT, IT Services, and IT Audit Filters
 ![image](https://github.com/user-attachments/assets/aef3a8ad-5bb0-48e4-b948-da9f3413199c)
 
 - **Top Campaign:**  
@@ -110,7 +110,7 @@ This analysis focuses on how our marketing campaigns are performing specifically
 4. **Enhance Product-Campaign Mapping:**  
    Ensure clear alignment between campaign messaging and the specific IT services and audit products.
 
-### 3. Back-up Solutions and Disaster Recovery
+# 3. Back-up Solutions and Disaster Recovery
 ![image](https://github.com/user-attachments/assets/925794ab-179d-459d-94a9-61b12b054b44)
 
   - **Campaign 6 ("Emergency Response Campaign")** emerges as the clear leader, generating the highest revenue in this segment.
@@ -138,7 +138,7 @@ This analysis focuses on how our marketing campaigns are performing specifically
 
 ---
 
-## 🔄 Summary: The Power of Filter-Driven Insights
+# 🔄 Summary: The Power of Filter-Driven Insights
 
 This analysis reinforces the critical importance of **multi-dimensional, filter-driven campaign evaluation**. Aggregate metrics alone can obscure vital segment-specific performance nuances. By leveraging interactive dashboards and detailed segmentation, decision makers can:
 
