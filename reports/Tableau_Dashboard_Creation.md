@@ -114,7 +114,7 @@ Created relationships between multiple data tables to enable comprehensive analy
 - **Second Place**: Lisa Wang ($2.19M+ revenue)
 - **Performance Distribution**: Clear performance gaps between representatives
 - **Team Size**: 10 active sales representatives
-# Please click here to see the full Sales Reps Performance Analysis dashboard report: 
+- [Please click here to see the full Sales Reps Performance Analysis Dashboard Report.](dashboards/Tableau_Reps_Performance_Analysis.md)
 ---
 
 ## Campaign Performance Analysis
@@ -144,7 +144,7 @@ Created relationships between multiple data tables to enable comprehensive analy
 - **Strong PerformerS**: Campaign 7,8,10 and 12 (~$1.303M - ~1.348M Revenue)
 - **Campaign Range**: Campaigns 1-15 active
 - **Performance Variation**: Significant differences in campaign effectiveness
-- # Please click here to see the full Campaign Analysis dashboard report: 
+- [Please click here to see the full Campaign Analysis dashboard report.](dashboards/Tableau_Campaing_Analysis_Dashboard.md)
 ---
 ## Dashboard Creation
 
@@ -227,17 +227,17 @@ Created 4 separate sheets for individual KPIs:
 
 2. **Resolution Process**
    - **Step 1**: Added Date and Product Name filters to each KPI sheet individually
-   - **Step 2**: Ensured filters were in Filters shelf (not displayed)
+   - **Step 2**: Ensured filters were in the Filters shelf (not displayed)
    - **Step 3**: Tested filter responsiveness on individual sheets
 
 3. **Dashboard Synchronization Issues**
    - **Problem**: Duplicate filters appeared (separate for chart and KPIs)
-   - **Symptom**: Two sets of identical filters on dashboard
-   - **Solution**: Removed duplicate filters, configured single filter set to control all elements
+   - **Symptom**: Two sets of identical filters on the dashboard
+   - **Solution**: Removed duplicate filters, configured a single filter set to control all elements
 
 4. **Final Filter Configuration**
    - **Method**: "Apply to Worksheets" → "All worksheets using this data source"
-   - **Result**: Single filter set controlling entire dashboard
+   - **Result**: Single filter set controls entire dashboard
    - **Verification**: All elements (chart and KPIs) respond to filter changes
 
 ---
