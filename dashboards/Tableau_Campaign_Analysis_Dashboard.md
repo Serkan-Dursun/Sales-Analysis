@@ -16,7 +16,7 @@ This report presents a detailed analysis of campaign effectiveness based on tota
   - *Small Business IT Support* (~$1.5M)
   - *Summer Security Special* (~$1.47M)
   - *Preventive Maintenance Push* (~$1.35M)
-- Revenue distribution shows a **Revenue distribution shows approximately a ~50% difference between the highest and lowest performers" for clarity
+- Revenue distribution shows a **Revenue distribution shows approximately a ~50% difference between the highest and lowest performers, for clarity
 - Product mix within campaigns varies, with top campaigns generally showing a balanced product contribution.
 
 ---
@@ -57,7 +57,7 @@ This analysis focuses on how our marketing campaigns are performing specifically
   Other campaigns currently underperforming in this segment may benefit from revisiting their messaging or product focus to better address emergency and helpdesk customer needs.
 
 - **Customer-Centric Approach:**  
-  Understanding that customers in emergency and helpdesk segments respond best to specific, urgent messaging helps us tailor our communications and offers more effectively.
+  Understanding that customers in emergency and helpdesk segments respond best to specific, urgent messaging helps us tailor our communications and offer more effectively.
 ---
 ---
 ### 2. Managed IT, IT Services, and IT Audit Filters
