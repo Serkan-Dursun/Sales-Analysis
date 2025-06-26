@@ -172,5 +172,5 @@ This analysis reinforces the critical importance of **multi-dimensional, filter-
 5. **Regularly Update Analysis:** Campaign effectiveness is dynamic; frequent reviews with updated data and filters are critical.
 
 ---
-###[Click Here to see how this dashboard created](https://github.com/Serkan-Dursun/Sales-Analysis/blob/7ae88ff322aa549c2a57e26748588d7f6ba2b1f3/reports/Tableau_Dashboard_Creation.md)
+### [Click Here to see how this dashboard's creation process](https://github.com/Serkan-Dursun/Sales-Analysis/blob/7ae88ff322aa549c2a57e26748588d7f6ba2b1f3/reports/Tableau_Dashboard_Creation.md)
 
