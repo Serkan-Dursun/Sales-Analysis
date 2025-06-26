@@ -114,7 +114,9 @@ Created relationships between multiple data tables to enable comprehensive analy
 - **Second Place**: Lisa Wang ($2.19M+ revenue)
 - **Performance Distribution**: Clear performance gaps between representatives
 - **Team Size**: 10 active sales representatives
-- [Please click here to see the full Sales Reps Performance Analysis Dashboard Report.](dashboards/Tableau_Reps_Performance_Analysis.md)
+# [Please click here to see the full Reps Performance Analysis Dashboard Report.](https://github.com/Serkan-Dursun/Sales-Analysis/blob/702f776e1da4e715b4cd7646a1b994b2324e79c3/dashboards/Tableau_Reps_Performance_Analysis.md)
+- 
+
 ---
 
 ## Campaign Performance Analysis
