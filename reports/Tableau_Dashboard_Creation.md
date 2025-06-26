@@ -144,7 +144,7 @@ Created relationships between multiple data tables to enable comprehensive analy
 - **Strong PerformerS**: Campaign 7,8,10 and 12 (~$1.303M - ~1.348M Revenue)
 - **Campaign Range**: Campaigns 1-15 active
 - **Performance Variation**: Significant differences in campaign effectiveness
-- [Please click here to see the full Campaign Analysis dashboard report.](dashboards/Tableau_Campaing_Analysis_Dashboard.md)
+- [Please click here to see the full Campaign Analysis dashboard report.](Sales-Analysis/dashboards/Tableau_Campaing_Analysis_Dashboard.md)
 ---
 ## Dashboard Creation
 
