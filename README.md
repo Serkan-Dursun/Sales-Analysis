@@ -104,9 +104,6 @@ This project delivers an end-to-end sales performance analysis solution, combini
   - Customer segmentation and sales rep performance analysis  
   - Campaign analysis and marketing insights  
 
-- **README.md**  
-  This comprehensive project overview and documentation entry point.
-
 ---
 
 ## Summary
