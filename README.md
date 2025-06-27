@@ -52,14 +52,10 @@ This project delivers an end-to-end sales performance analysis solution, combini
 
 ## Database Schema & Creation
 
-- Designed a star schema with a central `sales` fact table linked to dimension tables (`customers`, `products`, `sales_reps`, `marketing_campaigns`, etc.)  
+- Designed a [star schema](https://github.com/Serkan-Dursun/Sales-Analysis/blob/b2a88b515b3e4dfdfe515e21bd95d92282083ff0/images/SQL_Sales_Analysis_db_Diagram_ERD.jpg) with a central `sales` fact table linked to dimension tables (`customers`, `products`, `sales_reps`, `marketing_campaigns`, etc.)  
 - Enforced referential integrity with primary and foreign keys  
-- Created the database schema and tables using SQL scripts documented in [`scripts/Database_Creation.md`]([scripts/Database_Creation.md](https://github.com/Serkan-Dursun/Sales-Analysis/blob/4628801d6243e597a5b8c0626e740a34e5a18f1a/scripts/SQL_Creating_Database_and_Tables.md))  
+- Created and documented the [database schema and tables using SQL](https://github.com/Serkan-Dursun/Sales-Analysis/blob/b2a88b515b3e4dfdfe515e21bd95d92282083ff0/scripts/SQL_Creating_Database_and_Tables.md) scripts
 - Maintained data quality by cleaning, deduplicating, and enforcing constraints during import  
-
-**Entity-Relationship Diagram (ERD):**
-
-![SQL Entity Relational Database Diagram](images/SQL_Sales_Analysis_db_Diagram.jpg)
 
 ---
 
@@ -67,7 +63,7 @@ This project delivers an end-to-end sales performance analysis solution, combini
 
 - Generated realistic mock data using Python scripts for companies, individuals, products, and campaigns  
 - Imported data into SQL Server using the Import Wizard, followed by cleaning and migration to final tables  
-- Documented ETL processes in [`notebooks/ETL_Processes.md`](notebooks/ETL_Processes.md) and [`notebooks/Excel_to_SQL_Import_Guide.md`](notebooks/Excel_to_SQL_Import_Guide.md)  
+- Documented ETL processes in [`notebooks/ETL_Processes.md`]([notebooks/ETL_Processes.md](https://github.com/Serkan-Dursun/Sales-Analysis/blob/b2a88b515b3e4dfdfe515e21bd95d92282083ff0/notebooks/ETL_Processes.md)) and [`notebooks/Excel_to_SQL_Import_Guide.md`](notebooks/Excel_to_SQL_Import_Guide.md)  
 - Used surrogate keys and foreign keys to maintain data integrity and enable complex joins  
 
 ---
