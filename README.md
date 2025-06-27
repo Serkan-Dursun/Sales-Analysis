@@ -1,78 +1,122 @@
 # Sales Performance Analysis
 
 ## Overview
-This project showcases my ability to analyze sales data, identify business trends, and provide actionable insights to inform sales and marketing strategies. The analysis uses SQL for data extraction and cleaning, Tableau for interactive dashboards, and Excel VBA for automation and reporting.
+
+This project delivers an end-to-end sales performance analysis solution, combining data engineering, statistical analysis, automation, and interactive visualization. It integrates SQL database design and management, Python-driven data generation, RStudio for A/B testing, Excel VBA for automation, and Tableau dashboards for dynamic insights. The goal is to empower sales and marketing teams with actionable intelligence to optimize campaigns, improve sales rep performance, and drive business growth.
 
 ---
 
 ## Table of Contents
-- [Objectives](#objectives)
-- [Tools & Technologies](#tools--technologies)
-- [Business Impact](#business-impact)
-- [SQL Database Schema](#database-schema)
-- [Data Generation & Import](#data-generation--import)
-- [Project Structure & Key Links](#project-structure--key-links)
+
+- [Objectives](#objectives)  
+- [Tools & Technologies](#tools--technologies)  
+- [Business Impact](#business-impact)  
+- [Database Schema & Creation](#database-schema--creation)  
+- [Data Generation, Import & ETL](#data-generation-import--etl)  
+- [Statistical Analysis & A/B Testing](#statistical-analysis--ab-testing)  
+- [Project Structure & Key Components](#project-structure--key-components)  
 
 ---
 
 ## Objectives
-- Identify key sales trends and performance drivers
-- Optimize campaign targeting and client acquisition strategies
-- Automate recurring sales reports to improve efficiency
-- Visualize sales pipeline and forecasting for business stakeholders
+
+- Identify sales trends and key performance drivers across products, campaigns, and sales representatives  
+- Optimize marketing campaigns through detailed, filter-driven responsiveness analysis  
+- Automate sales reporting and data processing to improve operational efficiency  
+- Develop interactive dashboards for sales rep performance and campaign effectiveness  
+- Conduct rigorous A/B testing to validate marketing strategies and improve ROI  
+- Maintain a robust, scalable SQL database to support analytics and reporting  
 
 ---
 
 ## Tools & Technologies
-- SQL (data extraction, cleaning, and transformation)
-- Tableau (dashboard creation and data visualization)
-- Excel VBA (report automation and advanced analytics)
-- Power Query (data preparation in Excel)
+
+- SQL Server: Database creation, schema design, data extraction, and transformation  
+- Python: Data generation, Excel automation, and ETL scripting  
+- RStudio: Statistical analysis and A/B testing of marketing campaigns  
+- Tableau: Interactive dashboards for sales reps and campaign analysis  
+- Excel VBA: Automation of sales reports and advanced analytics  
+- Power Query: Data preparation and transformation within Excel  
 
 ---
 
 ## Business Impact
-- Improved sales forecasting accuracy and pipeline visibility
-- Enabled data-driven decision-making for sales and marketing teams
-- Increased efficiency through automation and streamlined reporting
+
+- Improved sales forecasting and pipeline visibility through integrated data views  
+- Data-driven marketing campaign optimization based on multi-dimensional filter analysis  
+- Enhanced sales rep performance tracking with dynamic KPIs and visualizations  
+- Increased efficiency via automation of repetitive reporting and data processing tasks  
+- Validated marketing strategies through rigorous A/B testing, reducing risk and improving ROI  
 
 ---
 
-## Database Schema
+## Database Schema & Creation
 
-The database is designed as a star schema, with a central fact table (`sales`) and several dimension and analytics tables. All relationships are enforced with primary and foreign keys.
+- Designed a star schema with a central `sales` fact table linked to dimension tables (`customers`, `products`, `sales_reps`, `marketing_campaigns`, etc.)  
+- Enforced referential integrity with primary and foreign keys  
+- Created the database schema and tables using SQL scripts documented in [`scripts/Database_Creation.md`](scripts/Database_Creation.md)  
+- Maintained data quality by cleaning, deduplicating, and enforcing constraints during import  
 
 **Entity-Relationship Diagram (ERD):**
 
 ![SQL Entity Relational Database Diagram](images/SQL_Sales_Analysis_db_Diagram.jpg)
 
-**Main Tables:**
-- `customers`: Customer information, including business and individual segments.
-- `products`: IT services and products offered.
-- `sales_reps`: Sales representatives and their regions.
-- `marketing_campaigns`: Details of marketing campaigns, channels, and performance.
-- `sales`: Fact table recording each sales transaction, linked to all relevant dimensions.
-- `web_analytics`: Daily web metrics for each campaign.
-- `ab_test_results`: Results of A/B tests, linked to campaigns for integrated analysis.
+---
+
+## Data Generation, Import & ETL
+
+- Generated realistic mock data using Python scripts for companies, individuals, products, and campaigns  
+- Imported data into SQL Server using the Import Wizard, followed by cleaning and migration to final tables  
+- Documented ETL processes in [`notebooks/ETL_Processes.md`](notebooks/ETL_Processes.md) and [`notebooks/Excel_to_SQL_Import_Guide.md`](notebooks/Excel_to_SQL_Import_Guide.md)  
+- Used surrogate keys and foreign keys to maintain data integrity and enable complex joins  
 
 ---
 
-## Data Generation & Import
+## Statistical Analysis & A/B Testing
 
-- **Mock Data**: Generated using Python, with realistic company and individual names, product lists, and campaign details.  
-  See [`notebooks/Python_Code_to_create_Excel_Dummy_Data.md`](notebooks/Python_Code_to_create_Excel_Dummy_Data.md).
-- **Excel Data File**: [`data/sales_performance_data.xlsx`](data/sales_performance_data.xlsx)
-- **Import Process**:  
-  - Data imported into SQL Server using the Import Wizard.  
-  - Temporary `$` tables created by the wizard were cleaned, deduplicated, and migrated into final tables.  
-  - All primary and foreign key constraints are enforced for data integrity.  
-  - Orphaned and duplicate records were identified and removed.
-- **Schema Evolution**:  
-  - Surrogate keys (e.g., `result_id`) added for uniqueness.  
-  - Foreign keys added to connect A/B test results to marketing campaigns.
-- **ETL Documentation**:  
-  See [`notebooks/Excel_to_SQL_Import_Guide.md`](notebooks/ETL_Processes.md) for a detailed step-by-step ETL process.
+- Conducted A/B testing on marketing campaigns using RStudio to evaluate effectiveness and optimize strategies  
+- Documented statistical methods and results in [`scripts/AB_Testing_Analysis.md`](scripts/AB_Testing_Analysis.md)  
+- Integrated A/B test results with campaign data in the SQL database for comprehensive analysis  
 
 ---
 
-## Project Structure & Key Links
+## Project Structure & Key Components
+
+- **dashboards/**  
+  - **Sales Representatives Performance Analysis:**  
+    Interactive Tableau dashboards analyzing 10 sales reps over 13 months, featuring KPIs like total revenue, average deal size, and order counts.  
+  - **Campaign Analysis:**  
+    Detailed Tableau dashboards showing campaign effectiveness across multiple campaigns, with dynamic filtering by product and service to reveal responsiveness patterns.
+
+- **data/**  
+  Contains raw and processed data files, including Excel spreadsheets and data usage instructions.
+
+- **images/**  
+  Visual assets supporting documentation, including ER diagrams, Tableau screenshots, and sales analysis graphics.
+
+- **notebooks/**  
+  Markdown documentation and Python scripts for data generation, ETL workflows, and Excel automation.
+
+- **reports/**  
+  Final reports and documentation, including Excel files with VBA macros and Tableau dashboard guides.
+
+- **scripts/**  
+  Analytical scripts and documentation covering:  
+  - SQL database creation and schema design  
+  - VBA macros for report automation  
+  - RStudio analyses for A/B testing  
+  - Customer segmentation and sales rep performance analysis  
+  - Campaign analysis and marketing insights  
+
+- **README.md**  
+  This comprehensive project overview and documentation entry point.
+
+---
+
+## Summary
+
+This project integrates multiple technologies and methodologies to provide a robust sales performance analysis platform. By combining SQL database management, Python and RStudio analytics, Excel automation, and Tableau visualization, it delivers actionable insights and interactive tools that empower business stakeholders to make informed decisions, optimize campaigns, and improve sales effectiveness.
+
+---
+
+If you need help generating additional documentation, reports, or enhancing dashboards, please let me know!
