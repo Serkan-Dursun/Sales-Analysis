@@ -63,15 +63,15 @@ This project delivers an end-to-end sales performance analysis solution, combini
 
 - Generated realistic mock data using Python scripts for companies, individuals, products, and campaigns  
 - Imported data into SQL Server using the Import Wizard, followed by cleaning and migration to final tables  
-- Documented ETL processes in [`notebooks/ETL_Processes.md`]([notebooks/ETL_Processes.md](https://github.com/Serkan-Dursun/Sales-Analysis/blob/b2a88b515b3e4dfdfe515e21bd95d92282083ff0/notebooks/ETL_Processes.md)) and [`notebooks/Excel_to_SQL_Import_Guide.md`](notebooks/Excel_to_SQL_Import_Guide.md)  
+- Documented [ETL processes from Excel to SQL](https://github.com/Serkan-Dursun/Sales-Analysis/blob/4f9e9631592b697ed3507778bc86fdd6b9f4f494/notebooks/ETL_Processes.md) and then from [SQL to R Studio](https://github.com/Serkan-Dursun/Sales-Analysis/blob/4f9e9631592b697ed3507778bc86fdd6b9f4f494/scripts/RStudio_and_SQL_A-B_Testing_Email_Market.md) 
 - Used surrogate keys and foreign keys to maintain data integrity and enable complex joins  
 
 ---
 
 ## Statistical Analysis & A/B Testing
 
-- Conducted A/B testing on marketing campaigns using RStudio to evaluate effectiveness and optimize strategies  
-- Documented statistical methods and results in [`scripts/AB_Testing_Analysis.md`](scripts/AB_Testing_Analysis.md)  
+- Conducted [A/B testing on marketing campaigns using RStudio](https://github.com/Serkan-Dursun/Sales-Analysis/blob/4f9e9631592b697ed3507778bc86fdd6b9f4f494/scripts/RStudio_AB_Testing.md) to evaluate effectiveness and optimize strategies  
+- Documented statistical methods and results 
 - Integrated A/B test results with campaign data in the SQL database for comprehensive analysis  
 
 ---
