@@ -54,7 +54,7 @@ This project delivers an end-to-end sales performance analysis solution, combini
 
 - Designed a star schema with a central `sales` fact table linked to dimension tables (`customers`, `products`, `sales_reps`, `marketing_campaigns`, etc.)  
 - Enforced referential integrity with primary and foreign keys  
-- Created the database schema and tables using SQL scripts documented in [`scripts/Database_Creation.md`](scripts/Database_Creation.md)  
+- Created the database schema and tables using SQL scripts documented in [`scripts/Database_Creation.md`]([scripts/Database_Creation.md](https://github.com/Serkan-Dursun/Sales-Analysis/blob/4628801d6243e597a5b8c0626e740a34e5a18f1a/scripts/SQL_Creating_Database_and_Tables.md))  
 - Maintained data quality by cleaning, deduplicating, and enforcing constraints during import  
 
 **Entity-Relationship Diagram (ERD):**
