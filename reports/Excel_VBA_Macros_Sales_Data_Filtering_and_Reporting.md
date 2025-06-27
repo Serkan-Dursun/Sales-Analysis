@@ -1,5 +1,4 @@
 # Sales Data Filtering and Reporting Macros
-
 ## Overview
 
 This project consists of a set of Excel VBA macros designed to automate the generation of detailed sales reports from a multi-sheet sales dataset. The macros enable dynamic filtering of sales data based on multiple criteria — specifically **Region**, **Product Name**, and **Sales Representative** — and produce a well-formatted, easy-to-read report within Excel.
@@ -50,6 +49,9 @@ The macro works with the following Excel sheets:
 
 6. **Formatting**: The report is formatted with styled headers, auto-fitted columns, borders, number formatting, frozen header row, autofilter dropdowns, and conditional formatting to highlight high sales totals.
 
+---
+---
+[Click this link to open VBA Codes for this Macros](https://github.com/Serkan-Dursun/Sales-Analysis/blob/60fb08d7e73abccd578cd1a35c137b38a5735489/scripts/Excel_VBA_Macros.md)
 ---
 
 ## Benefits of This Macro
