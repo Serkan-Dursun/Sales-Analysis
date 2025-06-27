@@ -51,7 +51,7 @@ The macro works with the following Excel sheets:
 
 ---
 ---
-[Click this link to open VBA Codes for this Macros](https://github.com/Serkan-Dursun/Sales-Analysis/blob/60fb08d7e73abccd578cd1a35c137b38a5735489/scripts/Excel_VBA_Macros.md)
+[Click this link to open the VBA codes for these macros on GitHub.](https://github.com/Serkan-Dursun/Sales-Analysis/blob/60fb08d7e73abccd578cd1a35c137b38a5735489/scripts/Excel_VBA_Macros.md)
 ---
 
 ## Benefits of This Macro
@@ -80,6 +80,8 @@ The macro works with the following Excel sheets:
 2. Open the VBA editor (`Alt + F11`) and paste the macro code into a module.
 3. Run the macro `GenerateMultiValueFilterSalesReport_Formatted`.
 4. When prompted, enter filter values for Region, Product, and Sales Rep as desired. Use commas to separate multiple values.
+![image](https://github.com/user-attachments/assets/606f106d-c607-4edd-beac-dbd10917bd31)
+
 5. Review the generated **Filtered Sales Report** sheet, which will contain the filtered data, summary, and formatted layout.
 6. Use the autofilter dropdowns in the header row to further explore or sort the data.
 
@@ -106,4 +108,6 @@ This macro project significantly streamlines sales data analysis by providing a 
 The full VBA macro code is included in this repository for easy reuse and customization.
 
 ---
+![image](https://github.com/user-attachments/assets/8aa6a073-0c7d-4eda-9f0b-4d2d94e37711)
+
 
